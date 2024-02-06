@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.center {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.top {
+  background-image: url(img/bgtop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main {
+  background-color: #000915;
+}/*# sourceMappingURL=style.css.map */
