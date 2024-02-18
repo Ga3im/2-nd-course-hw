@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+  .body {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .main_content__img {
+    width: 343px;
+  }
+}/*# sourceMappingURL=_mobile.css.map */

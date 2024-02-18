@@ -1,0 +1,13 @@
+@media ( max-width : 767px ){
+.body{
+    padding-left: 16px;
+    padding-right: 16px ;
+}
+.main{
+    &_content{
+        &__img{
+            width: 343px;
+        }
+    }
+}
+}
