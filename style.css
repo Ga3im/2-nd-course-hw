@@ -55,6 +55,13 @@
   letter-spacing: 0px;
   text-align: left;
   text-align: center;
+  transition: all 0.3s;
+}
+.top__button:hover {
+  transform: scale(1.08);
+}
+.top__button:active {
+  transform: scale(1.05);
 }
 
 .main {
@@ -71,6 +78,13 @@
 }
 .main_content__links {
   text-decoration: none;
+  transition: all 0.3s;
+}
+.main_content__links:hover {
+  transform: scale(1.08);
+}
+.main_content__links:active {
+  transform: scale(1.03);
 }
 .main_content__text {
   color: rgb(255, 255, 255);
@@ -85,9 +99,29 @@
 }
 
 @media (max-width: 767px) {
-  .body {
+  .center {
     padding-left: 16px;
     padding-right: 16px;
+  }
+  .top {
+    background-image: url(img/bgtopmobile.jpg);
+    height: 735px;
+  }
+  .top__name {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .top__text {
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+  }
+  .top__centerbutton {
+    text-align: center;
+  }
+  .main_content {
+    gap: 0px;
   }
   .main_content__img {
     width: 343px;
