@@ -1,0 +1,32 @@
+@media ( max-width : 767px ){
+.center{
+    padding-left: 16px;
+    padding-right: 16px ;
+}
+.top{
+    background-image: url(img/bgtopmobile.jpg);
+    height: 735px;
+    &__name{
+        font-size: 32px; 
+        line-height: 39px;
+        text-align: center;   
+    }
+    &__text{
+        font-size: 14px;
+        text-align: center;
+        line-height: 22px;
+    }
+    &__centerbutton{
+        text-align: center;
+    }
+}
+
+.main{
+    &_content{
+        gap: 0px;
+        &__img{
+            width: 343px;
+        }
+    }
+}
+}
