@@ -1,7 +1,7 @@
 // Задание 1
-let num1 = Number(10);
+let num1 = 10;
 alert(num1);
-let num2 = Number(20);
+let num2 = 20;
 alert(num2);
 // Задание 2
 const date = new Date(2007,5,29,12,0,0);
@@ -10,8 +10,8 @@ console.log(`Год выпуска iPhone: ${date}`);
 const name = ('Brendan Eich');
 console.log(`Создатель языка Java Script: ${name}`);
 // Задание 4
-let x = Number(10);
-let y = Number(2);
+let x = 10;
+let y = 2;
 console.log(`Сумма ${x+y}. Разность ${x-y} Произведение ${x*y} Частное ${x/y}`);
 // Задание 5
 let result = y**5
@@ -35,7 +35,7 @@ console.log(`You are ${age1} y. o.`);
 //Задание 9.0
 const user = {
     name: String('Gazim'), 
-    age: Number(23),
+    age: 23,
     isAdmin: Boolean(1)
 }
 
