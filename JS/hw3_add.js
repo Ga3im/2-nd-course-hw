@@ -26,3 +26,31 @@ switch (clientOS) {
         alert('Нет такого');
         break;
 }
+
+//Задание 9 
+let client = prompt('Если iOS то нажми на 0, если Android то нажми на 1');
+let clientDeviceYear = prompt('Какого года девайс?')
+switch (client) {
+    case '0':
+        if (clientDeviceYear <= 2015) {
+            alert('Установите облегченную версию приложения для iOS по ссылке') 
+         }
+         else{
+            alert('Установите версию приложения для iOS по ссылке');
+         }
+        break;
+
+        case '1':
+            
+            if (clientDeviceYear <= 2015) {
+                alert('Установите облегченную версию приложения для iOS по ссылке') 
+             }
+             else{
+                alert('Установите версию приложения для Android по ссылке');
+             }
+            break;
+         
+    default:
+        alert('Нет такого');
+        break;
+}
