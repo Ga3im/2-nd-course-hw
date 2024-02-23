@@ -10,11 +10,14 @@
     padding-right: 120px;
 }
 .top{
+    
     background-image: url(img/bgtop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 1024px;
+    display: flex;
+    justify-content: space-around;
     &_content{
         display: flex;
         flex-direction: column;
