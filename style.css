@@ -18,6 +18,8 @@
   background-size: cover;
   background-position: center;
   height: 1024px;
+  display: flex;
+  justify-content: space-around;
 }
 .top_content {
   display: flex;
