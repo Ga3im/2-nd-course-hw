@@ -1,7 +1,14 @@
 // Задание 1
 const hw1 = [1, 5, 4, 10, 0, 3];
-
+for (let index = 0; index < hw1.length; index++) {
+    console.log(hw1[index]);
+    if (hw1[index] === 10) {
+        break;
+    }
+}
+    
 // Задание 2
+
 // Задание 3
 // Задание 4
 // Задание 5
