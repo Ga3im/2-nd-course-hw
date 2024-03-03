@@ -29,4 +29,29 @@
         }
     }
 }
+
+.gameSeasons{
+ padding-top: 51px;
+ padding-bottom: 85px;
+ &_main {
+    &__centerButton{
+        text-align: center;
+    }
+    &__name{
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        }
+    &__text{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+        }
+ }
+ &_img{
+    width:344px;
+ }
+}
+
 }
