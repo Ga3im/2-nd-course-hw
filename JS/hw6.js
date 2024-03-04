@@ -10,13 +10,15 @@ for (let index = 0; index < hw1.length; index++) {
 
 // Задание 2
 const hw2 = [1, 5, 4, 10, 0, 3];
-for (let index = 0; index < hw2.length; index++) {
-    const element = hw2[index];  
-    if (element == 4) {
-     console.log(`Задание 2: ${index}`);
-     break;
-    }
- }
+// for (let index = 0; index < hw2.length; index++) {
+//     const element = hw2[index];  
+//     if (element == 4) {
+//      console.log(`Задание 2: ${index}`);
+//      break;
+//     }
+//  }
+    let Found = hw2.indexOf(4);
+console.log(`Задание 2, индекс в котором находиться 4: ${Found}`);
 
  // Задание 3
 const hw3 = [1, 3, 5, 10, 20];
@@ -71,7 +73,7 @@ console.log(`Задание 8: ${h88}`);
 
 // Задание 9 
 const hw9 = [[1, 2, 3],[4, 5, 6]];
-const home9 = [...hw9];
+const home9 = hw9.flat(Infinity);
 console.log(`Задание 9: ${home9}`);
 
 //Задание 10
