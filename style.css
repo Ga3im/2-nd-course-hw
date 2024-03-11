@@ -151,6 +151,23 @@
   transform: scale(1.05);
 }
 
+.gameRemember {
+  background-color: #000915;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 135px;
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+.gameRemember_main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 588px;
+  justify-content: center;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -198,6 +215,9 @@
     text-align: center;
   }
   .gameSeasons_img {
+    width: 344px;
+  }
+  .gameRemember_imgmain__img {
     width: 344px;
   }
 }/*# sourceMappingURL=style.css.map */
