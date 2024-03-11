@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media ( max-width : 767px ){
 .center{
     padding-left: 16px;
@@ -58,4 +59,66 @@
         width: 344px;
     }
 }
+=======
+@media ( max-width : 767px ){
+.center{
+    padding-left: 16px;
+    padding-right: 16px ;
+}
+.top{
+    background-image: url(img/bgtopmobile.jpg);
+    height: 735px;
+    &__name{
+        font-size: 32px; 
+        line-height: 39px;
+        text-align: center;   
+    }
+    &__text{
+        font-size: 14px;
+        text-align: center;
+        line-height: 22px;
+    }
+    &__centerbutton{
+        text-align: center;
+    }
+}
+
+.main{
+    &_content{
+        gap: 0px;
+        &__img{
+            width: 343px;
+        }
+    }
+}
+
+.gameSeasons{
+ padding-top: 51px;
+ padding-bottom: 85px;
+ &_main {
+    &__centerButton{
+        text-align: center;
+    }
+    &__name{
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        }
+    &__text{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+        }
+ }
+ &_img{
+    width:344px;
+ }
+}
+.gameRemember{
+    &_imgmain__img{
+        width: 344px;
+    }
+}
+>>>>>>> c594636c686a24918f486d257a775a3d0c9c7b8b
 }
