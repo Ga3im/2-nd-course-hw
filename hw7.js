@@ -6,14 +6,11 @@ console.log(`Задание 1: ${upper}`);
 // Задание 2
 const arrt2 = ["Кошка", "Корова", "Коза", "Курица", "Баран"];
 let str = 'Ко';
-function task2() {
-    arrt2.forEach((newarr) => {
-        if (newarr.toLowerCase().includes(str.toLowerCase())) {
-           console.log(`Задание 2: ${newarr}`);
-        }
-     });
+function poiskpoarr() {
+    const result = arrt2.filter((arrt2) => arrt2.includes(str));
+    console.log(`Задание 2: ${result}`);
 }
-task2();
+poiskpoarr();
 
 // Зада0ние 3
 let number = 32.58884;
@@ -53,11 +50,8 @@ console.log(`Задание 8: ${data}`);
 
 // Задание 9
 let currentDate = new Date;
-let days73 = 73 * 24 * 60 * 60 * 1000;
-let dat = +currentDate;
-let after73 = dat + days73;
-let daysnext73 = new Date(after73);
-console.log(`Задание 9: ${daysnext73}`);
+currentDate.setDate(currentDate.getDate() + 73);
+console.log(`Задание 9: ${currentDate}`);
 
 // Задание 10
 const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг",
