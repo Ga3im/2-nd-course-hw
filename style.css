@@ -97,7 +97,7 @@
   text-align: left;
   position: relative;
   top: 268px;
-  left: 32px;
+  padding-left: 32px;
 }
 
 .gameSeasons {
@@ -151,6 +151,41 @@
   transform: scale(1.05);
 }
 
+.gameRemember {
+  background-color: #000915;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 135px;
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+.gameRemember_main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 588px;
+  justify-content: center;
+}
+
+.gameRiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/bggame3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+.gameRiddle_main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  flex-direction: column;
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -200,4 +235,23 @@
   .gameSeasons_img {
     width: 344px;
   }
+  .gameRemember {
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-bottom: 90px;
+    padding-top: 50px;
+  }
+  .gameRemember_main {
+    width: auto;
+  }
+  .gameRemember_imgmain__img {
+    width: 344px;
+    padding-bottom: 90px;
+  }
+}
+.gameRiddle {
+  align-items: start;
+}
+.gameRiddle_main {
+  padding-top: 50px;
 }/*# sourceMappingURL=style.css.map */
