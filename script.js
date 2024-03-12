@@ -13,3 +13,18 @@ function gameMonth() {
                 alert('Нет такого месяца');
              }
         }
+
+
+function gameRemember() {
+   const game2 = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+   game2.sort(() => Math.random() - 0.5);
+   let gamestr = game2.join(" ");
+   alert(`Запомни следущие слова: ${gamestr}`);
+   let useranswer = prompt('Введите слова по порядку');
+   if (useranswer.toLowerCase() === gamestr.toLowerCase()) {
+      alert('Молодец, Ты угадал');
+   }
+   else{
+      alert('Не угадал, Попробуйте еще раз');
+   }
+}
