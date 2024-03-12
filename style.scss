@@ -93,7 +93,7 @@
             text-align: left;
             position: relative;
             top: 268px;
-            left: 32px;
+            padding-left: 32px;
         }
     }
 }
@@ -148,5 +148,24 @@
         gap: 32px;
     }
 }
+
+.gameRemember{
+    background-color: #000915;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 135px;
+    padding-top: 240px;
+    padding-bottom: 240px;
+    &_main{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        width: 588px;
+        justify-content: center;
+    }
+}
+
+
 
 @import 'mobile.scss'
