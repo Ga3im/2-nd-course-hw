@@ -54,8 +54,22 @@
  }
 }
 .gameRemember{
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-bottom: 90px;
+    padding-top: 50px;
+    &_main{
+        width: auto;
+    }
     &_imgmain__img{
         width: 344px;
     }
 }
+}
+
+.gameRiddle{
+    align-items: start;
+    &_main{
+        padding-top: 50px;
+    }
 }

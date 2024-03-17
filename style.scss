@@ -166,6 +166,22 @@
     }
 }
 
-
+.gameRiddle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/bggame3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    &_main{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
 @import 'mobile.scss'
